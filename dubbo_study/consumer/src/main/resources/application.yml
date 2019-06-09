@@ -1,0 +1,8 @@
+server:
+  port: 8091
+dubbo:
+  application:
+    name: user_consumer
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
