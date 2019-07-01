@@ -17,7 +17,7 @@ public class UserServiceStub implements UserService, EchoService {
     @Override
     public UserDO queryById(String id) {
         UserDO userDO = userService.queryById(id);
-        log.info("使用了本地存根");
+        //log.info("使用了本地存根");
         return userDO;
     }
 

@@ -9,7 +9,7 @@ public class UserServiceMock implements UserService {
 
     @Override
     public UserDO queryById(String id) {
-        log.error("{}:{}()服务调用出现异常",getClass(),"queryById");
+        //log.error("{}:{}()服务调用出现异常",getClass(),"queryById");
         return null;
     }
 }

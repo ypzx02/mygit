@@ -15,13 +15,13 @@
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
     <dubbo:reference id="userService" interface="com.study.dubbo.interfaces.UserService"
-                     stub="com.study.dubbo.consumer.stub.UserServiceStub"
-                     mock="com.study.dubbo.consumer.mock.UserServiceMock"
     />
+    <!--stub="com.study.dubbo.consumer.stub.UserServiceStub"-->
+    <!-- mock="com.study.dubbo.consumer.mock.UserServiceMock"-->
 
-    <dubbo:reference id="userService2" interface="com.study.dubbo.interfaces.UserService"
-                     stub="com.study.dubbo.consumer.stub.UserServiceStub"
-                     mock="com.study.dubbo.consumer.mock.UserServiceMock"
-                     group="2"
-    />
+    <!-- <dubbo:reference id="userService2" interface="com.study.dubbo.interfaces.UserService"
+                      stub="com.study.dubbo.consumer.stub.UserServiceStub"
+     />
+      mock="com.study.dubbo.consumer.mock.UserServiceMock"
+                      group="2"-->
 </beans>

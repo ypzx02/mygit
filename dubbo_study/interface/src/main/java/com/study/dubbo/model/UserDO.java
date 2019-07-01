@@ -2,6 +2,7 @@ package com.study.dubbo.model;
 
 import java.io.Serializable;
 
+
 public class UserDO implements Serializable {
 
     private String id;

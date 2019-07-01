@@ -15,7 +15,7 @@ public class UserServiceStub implements UserService {
 
     @Override
     public UserDO queryById(String id) {
-        log.info("provider 调用{}:{}()",getClass(),"queryById");
+       // log.info("provider 调用{}:{}()",getClass(),"queryById");
         return userService.queryById(id);
     }
 }
