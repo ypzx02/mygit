@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../vertx-examples/amqp-bridge-examples/amqp-bridge-examples.iml" filepath="$PROJECT_DIR$/../vertx-examples/amqp-bridge-examples/amqp-bridge-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../starter/starter.iml" filepath="$PROJECT_DIR$/../starter/starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vertx_01/vertx_01.iml" filepath="$PROJECT_DIR$/../vertx_01/vertx_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vertx_02/vertx_02.iml" filepath="$PROJECT_DIR$/../vertx_02/vertx_02.iml" />
+    </modules>
+  </component>
+</project>
